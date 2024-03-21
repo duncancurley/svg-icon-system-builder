@@ -1,0 +1,25 @@
+{
+  "name": "svg-icon-system-builder",
+  "version": "1.0.2",
+  "description": "Builds a system of SVG icons by converting them into React components.",
+  "main": "index.js",
+  "scripts": {
+    "build-icons": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duncancurley/svg-icon-system-builder"
+  },
+  "dependencies": {
+    "@svgr/core": "^6.1.2",
+    "fs": "^0.0.1-security",
+    "glob": "^7.1.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.4",
+    "file-loader": "^6.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
